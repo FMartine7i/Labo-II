@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #9821e7;
+    margin-bottom: .7rem;
+}
+
+.row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #32d8ca;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 10%;
+    height: 3rem;
+    margin: 1rem;    
+}
